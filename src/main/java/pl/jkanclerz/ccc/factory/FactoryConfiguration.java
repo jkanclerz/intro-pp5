@@ -1,7 +1,7 @@
 package pl.jkanclerz.ccc.factory;
 
 public final class FactoryConfiguration {
-    public static Boss getResponsibleEmployee() {
+    public static Employee getResponsibleEmployee() {
         return new Boss("Tonny", new Worker());
     }
 }
